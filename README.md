@@ -1,4 +1,4 @@
-This repo includes the implementation of ICML2021 paper **"Stochastic Iterative Graph Matching (SIGMA)"**
+This repo includes the implementation of ICML2021 paper **"Stochastic Iterative Graph Matching (SIGMA)"** (https://arxiv.org/pdf/2106.02206.pdf)
 
 The repo covers the three experiments given in the manuscript.
 * Common Graph Matching: an example of matching the PPI network with 5\% noise ratio.
