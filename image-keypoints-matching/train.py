@@ -48,10 +48,7 @@ transform = T.Compose([
 
 train_datasets = []
 test_datasets = []
-if socket.gethostname() == 'DESKTOP-MNUCJO7':
-    path = osp.join('C:\\', 'p_data_', 'PascalVOC')
-else:
-    path = osp.join('../../data_bn', 'PascalVOC')
+path = osp.join('../data', 'PascalVOC')
 for category in PascalVOC.categories:
     dataset = PascalVOC(path, category, train=True, transform=transform,
                         pre_filter=pre_filter)
